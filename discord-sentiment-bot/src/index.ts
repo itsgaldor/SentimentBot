@@ -1,4 +1,5 @@
 // Application entry point for Discord Sentiment Bot
+import 'dotenv/config';
 import { getEnv } from './config/env.js';
 import { logger } from './config/logger.js';
 import { pingDatabase } from './db/ping.js';
