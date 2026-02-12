@@ -1,0 +1,37 @@
+{
+  "name": "discord-sentiment-bot",
+  "version": "0.0.0",
+  "description": "Private Discord bot with multi-tenant per-guild isolation",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "commands:register": "tsx scripts/register-commands.ts",
+    "migrate:up": "node-pg-migrate up --migrations-dir db/migrations --migration-file-language ts",
+    "migrate:down": "node-pg-migrate down --migrations-dir db/migrations --migration-file-language ts",
+    "migrate:create": "node-pg-migrate create --migrations-dir db/migrations --migration-file-language ts"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "pg": "^8.18.0",
+    "pino": "^9.14.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.33",
+    "@types/pg": "^8.10.9",
+    "node-pg-migrate": "^6.2.2",
+    "pino-pretty": "^11.2.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "type": "commonjs"
+}
