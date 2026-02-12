@@ -70,7 +70,7 @@ Edit `.env` and fill in all required values:
 DISCORD_TOKEN=your_discord_bot_token_here
 DISCORD_CLIENT_ID=your_discord_client_id_here
 DEV_GUILD_ID=your_dev_guild_id_here
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/discord_sentiment
+DATABASE_URL=postgresql://galdoradmin:TriFuersa%401!@localhost:5435/discord_sentiment
 NODE_ENV=development
 LOG_LEVEL=info
 ```

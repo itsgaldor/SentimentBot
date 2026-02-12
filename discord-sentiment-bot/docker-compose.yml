@@ -9,11 +9,11 @@ services:
       POSTGRES_PASSWORD: TriFuersa@1!
       POSTGRES_DB: discord_sentiment
     ports:
-      - "5435:5435"
+      - "5435:5432"
     volumes:
       - discord_sentiment_pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U app -d discord_sentiment"]
+      test: ["CMD-SHELL", "pg_isready -U galdoradmin -d discord_sentiment"]
       interval: 5s
       timeout: 3s
       retries: 20
