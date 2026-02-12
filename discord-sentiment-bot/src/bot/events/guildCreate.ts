@@ -1,3 +1,4 @@
+// Guild join event handler - handles new server additions
 import { Events, Guild, Client } from 'discord.js';
 import { getPool } from '../../db/pool.js';
 import { logger } from '../../config/logger.js';

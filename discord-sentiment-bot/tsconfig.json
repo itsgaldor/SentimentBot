@@ -1,4 +1,5 @@
 {
+  // TypeScript configuration for Discord Sentiment Bot
   "compilerOptions": {
     "target": "ES2022",
     "module": "commonjs",

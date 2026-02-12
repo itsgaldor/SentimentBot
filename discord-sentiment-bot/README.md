@@ -1,6 +1,8 @@
 # Discord Sentiment Bot
 
-A private Discord bot with multi-tenant per-guild isolation, built with TypeScript, Discord.js v14, and PostgreSQL.
+A Discord bot with multi-tenant per-guild isolation, built with TypeScript, Discord.js v14, and PostgreSQL.
+
+> Repository: [https://github.com/itsgaldor/SentimentBot](https://github.com/itsgaldor/SentimentBot)
 
 ## Features
 

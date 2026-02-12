@@ -1,3 +1,4 @@
+// Initial database migration - creates guild_config table
 import { MigrationBuilder, ColumnDefinitions } from 'node-pg-migrate';
 
 export const shorthands: ColumnDefinitions | undefined = undefined;

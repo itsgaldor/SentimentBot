@@ -1,3 +1,4 @@
+// Command registry for Discord slash commands
 import { Collection, ChatInputCommandInteraction, SlashCommandBuilder } from 'discord.js';
 import * as pingCommand from './ping.js';
 

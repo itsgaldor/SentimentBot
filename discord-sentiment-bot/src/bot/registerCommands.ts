@@ -1,3 +1,4 @@
+// Command registration helper for Discord slash commands
 import { REST, Routes } from 'discord.js';
 import { getEnv } from '../config/env.js';
 import { commands } from './commands/index.js';
