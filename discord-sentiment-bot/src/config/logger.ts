@@ -1,3 +1,4 @@
+// Pino logger configuration
 import pino from 'pino';
 
 function createLogger() {

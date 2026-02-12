@@ -1,3 +1,4 @@
+// Script to register Discord slash commands
 import { getEnv } from '../src/config/env.js';
 import { registerCommands } from '../src/bot/registerCommands.js';
 import { logger } from '../src/config/logger.js';

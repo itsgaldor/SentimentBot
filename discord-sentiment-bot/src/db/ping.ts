@@ -1,3 +1,4 @@
+// Database health check utility
 import { getPool } from './pool.js';
 import { logger } from '../config/logger.js';
 

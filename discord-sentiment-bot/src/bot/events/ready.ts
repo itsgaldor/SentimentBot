@@ -1,3 +1,4 @@
+// Bot ready event handler
 import { Events, Client } from 'discord.js';
 import { logger } from '../../config/logger.js';
 

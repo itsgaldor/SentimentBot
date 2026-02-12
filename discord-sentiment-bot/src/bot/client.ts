@@ -1,3 +1,4 @@
+// Discord client initialization
 import { Client, GatewayIntentBits } from 'discord.js';
 import { getEnv } from '../config/env.js';
 

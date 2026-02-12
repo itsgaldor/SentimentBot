@@ -1,3 +1,4 @@
+// PostgreSQL connection pool management
 import { Pool } from 'pg';
 import { getEnv } from '../config/env.js';
 

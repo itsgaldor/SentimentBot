@@ -1,3 +1,4 @@
+// Environment variable validation using Zod
 import { z } from 'zod';
 
 const envSchema = z.object({

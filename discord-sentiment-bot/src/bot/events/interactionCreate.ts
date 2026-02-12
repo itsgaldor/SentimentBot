@@ -1,3 +1,4 @@
+// Slash command interaction handler
 import { Events, Interaction, Client } from 'discord.js';
 import { commands } from '../commands/index.js';
 import { logger } from '../../config/logger.js';
